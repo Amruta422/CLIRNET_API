@@ -1,0 +1,11 @@
+{
+  "provider": "parallel",
+  "query_id": "q04",
+  "run": 1,
+  "status": 401,
+  "failure_kind": "http_error",
+  "error": "HTTP Error 401: Unauthorized",
+  "timestamp_utc": "2026-10-02T17:28:53.647812+00:00",
+  "response_sha256": "9e853a6b52c6eaffb0dc51983f641308ac76e8011c45b290a2ad14f1d15a886c",
+  "response_body_base64": "eyJjb2RlIjoxNiwibWVzc2FnZSI6IkludmFsaWQgQVBJIGtleSAoQy4yKSJ9"
+}

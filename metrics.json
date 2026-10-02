@@ -11,23 +11,23 @@
   },
   "providers": {
     "tinyfish": {
-      "request_attempts": 0,
-      "raw_responses": 0,
+      "request_attempts": 36,
+      "raw_responses": 36,
       "latency_ms": {
-        "p50": null,
-        "p95": null
+        "p50": 804.37,
+        "p95": 2666.79
       },
-      "mean_results_per_request": 0.0,
-      "domain_diversity": null,
-      "freshness_pct": null,
+      "mean_results_per_request": 10.0,
+      "domain_diversity": 0.225,
+      "freshness_pct": 10.83,
       "dated_age_days": {
-        "count": 0,
-        "p50": null,
-        "p95": null,
-        "min": null,
-        "max": null
+        "count": 39,
+        "p50": 1430.0,
+        "p95": 3024.0,
+        "min": 29,
+        "max": 3024
       },
-      "authority_pct": null,
+      "authority_pct": 49.17,
       "failures": {
         "non_200": 0,
         "timeouts_or_network_errors": 0,
@@ -45,15 +45,19 @@
       "per_query": {
         "q01": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1089.15,
+            "p95": 1989.19
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2667,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -61,49 +65,57 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 70.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly reports recombinant zoster vaccine effectiveness in adults 50–79; snippet includes quantitative effectiveness."
           }
         },
         "q02": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1074.29,
+            "p95": 2551.67
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3333,
+          "freshness_pct": 40.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 12,
+            "p50": 1217.0,
+            "p95": 3024.0,
+            "min": 171,
+            "max": 3024
           },
-          "authority_pct": null,
+          "authority_pct": 40.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is a treatment-recommendations review and snippet states first-line management; directly relevant to treatment guidelines."
           }
         },
         "q03": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 658.33,
+            "p95": 736.38
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2667,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -111,24 +123,28 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 70.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly covers GLP-1 receptor agonists and cardiovascular outcome trials; snippet confirms cardiovascular safety."
           }
         },
         "q04": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 728.89,
+            "p95": 1058.53
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -136,49 +152,57 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "partial",
+            "supporting_rank": "1",
+            "notes": "Top result is directly about drug-resistant pathogens in community-acquired pneumonia, but the snippet mainly describes risk factors rather than giving a broad resistance summary."
           }
         },
         "q05": {
           "category": "india",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 672.2,
+            "p95": 807.41
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 30.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 9,
+            "p50": 1684.0,
+            "p95": 2382.0,
+            "min": 368,
+            "max": 2382
           },
-          "authority_pct": null,
+          "authority_pct": 30.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the Telemedicine Practice Guidelines for India and the snippet identifies India-specific telemedicine guidance."
           }
         },
         "q06": {
           "category": "india",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 872.4,
+            "p95": 1008.8
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3333,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -186,24 +210,28 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 0.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly concerns the 2025 amendment and its impact on India's medical-device regulation; clearly matches the query."
           }
         },
         "q07": {
           "category": "recency",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1091.9,
+            "p95": 1138.26
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -211,24 +239,28 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is a June 2026 RECOVER research update, directly matching long COVID treatment news in 2026."
           }
         },
         "q08": {
           "category": "recency",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1068.26,
+            "p95": 2492.23
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2333,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -236,24 +268,28 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 90.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the 2025 global antibiotic resistance surveillance report and the next results include WHO/CDC material; directly relevant to the latest WHO AMR reporting."
           }
         },
         "q09": {
           "category": "authority",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1001.47,
+            "p95": 3726.79
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 0.0,
           "dated_age_days": {
             "count": 0,
             "p50": null,
@@ -261,86 +297,98 @@
             "min": null,
             "max": null
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly gives CDC shingles vaccine recommendations, including two doses and the adult age threshold."
           }
         },
         "q10": {
           "category": "authority",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 750.57,
+            "p95": 920.88
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 30.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 9,
+            "p50": 128.0,
+            "p95": 414.0,
+            "min": 29,
+            "max": 414
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the 2025 high-blood-pressure guideline hub; directly relevant to hypertension management guidance."
           }
         },
         "q11": {
           "category": "longtail",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 781.44,
+            "p95": 1067.69
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 20.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 6,
+            "p50": 1497.5,
+            "p95": 1565.0,
+            "min": 1430,
+            "max": 1565
           },
-          "authority_pct": null,
+          "authority_pct": 30.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly answers monitoring frequency for vitamin B12 in metformin users and the snippet states baseline plus annual monitoring."
           }
         },
         "q12": {
           "category": "longtail",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 732.86,
+            "p95": 932.38
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 10.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 3,
+            "p50": 1612.0,
+            "p95": 1612.0,
+            "min": 1612,
+            "max": 1612
           },
-          "authority_pct": null,
+          "authority_pct": 20.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is official DUPIXENT dosing information and explicitly covers pediatric atopic dermatitis dosing."
           }
         }
       },
@@ -348,28 +396,28 @@
         "mode": "Search API",
         "published_usd_per_1000_queries": 0.0,
         "free_allowance_requests": "Search requests free at any wallet balance",
-        "recorded_attempts": 0,
+        "recorded_attempts": 36,
         "estimated_usd": 0.0
       }
     },
     "parallel": {
-      "request_attempts": 0,
-      "raw_responses": 0,
+      "request_attempts": 36,
+      "raw_responses": 36,
       "latency_ms": {
-        "p50": null,
-        "p95": null
+        "p50": 2840.28,
+        "p95": 5358.18
       },
-      "mean_results_per_request": 0.0,
-      "domain_diversity": null,
-      "freshness_pct": null,
+      "mean_results_per_request": 10.0,
+      "domain_diversity": 0.1861,
+      "freshness_pct": 68.33,
       "dated_age_days": {
-        "count": 0,
-        "p50": null,
-        "p95": null,
-        "min": null,
-        "max": null
+        "count": 246,
+        "p50": 407.0,
+        "p95": 3966.0,
+        "min": 1,
+        "max": 9466
       },
-      "authority_pct": null,
+      "authority_pct": 50.0,
       "failures": {
         "non_200": 0,
         "timeouts_or_network_errors": 0,
@@ -385,302 +433,350 @@
       "per_query": {
         "q01": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2805.15,
+            "p95": 13500.17
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2,
+          "freshness_pct": 70.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 21,
+            "p50": 710.0,
+            "p95": 3966.0,
+            "min": 2,
+            "max": 3966
           },
-          "authority_pct": null,
+          "authority_pct": 50.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly reports effectiveness of adjuvanted recombinant zoster vaccine in adults; other top results also include Shingrix and CDC sources."
           }
         },
         "q02": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2231.88,
+            "p95": 2587.02
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2,
+          "freshness_pct": 100.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 30,
+            "p50": 674.0,
+            "p95": 4812.0,
+            "min": 171,
+            "max": 4812
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is an evidence-based guideline for treatment of tardive syndromes and directly addresses tardive dyskinesia treatment."
           }
         },
         "q03": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 3227.01,
+            "p95": 3253.49
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2333,
+          "freshness_pct": 83.33,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 25,
+            "p50": 1023.0,
+            "p95": 3718.0,
+            "min": 64,
+            "max": 3718
           },
-          "authority_pct": null,
+          "authority_pct": 60.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly covers GLP-1 receptor agonist therapies and cardiovascular outcomes; multiple top results are cardiovascular outcome trials."
           }
         },
         "q04": {
           "category": "clinical",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 1943.89,
+            "p95": 3339.1
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 70.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 21,
+            "p50": 1068.0,
+            "p95": 2527.0,
+            "min": 64,
+            "max": 9466
           },
-          "authority_pct": null,
+          "authority_pct": 73.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly addresses antimicrobial resistance among Streptococcus pneumoniae, a major community-acquired pneumonia pathogen; guideline results are also present."
           }
         },
         "q05": {
           "category": "india",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2395.71,
+            "p95": 3102.69
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3667,
+          "freshness_pct": 73.33,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 22,
+            "p50": 2382.0,
+            "p95": 4241.0,
+            "min": 94,
+            "max": 4241
           },
-          "authority_pct": null,
+          "authority_pct": 23.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the Telemedicine Practice Guidelines from India's Ministry of Health and Family Welfare; directly matches the query."
           }
         },
         "q06": {
           "category": "india",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 3330.06,
+            "p95": 3948.65
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2667,
+          "freshness_pct": 40.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 12,
+            "p50": 289.0,
+            "p95": 397.75,
+            "min": 126,
+            "max": 494
           },
-          "authority_pct": null,
+          "authority_pct": 0.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "partial",
+            "supporting_rank": "2",
+            "notes": "Rank 2 explicitly describes the 2025 Medical Devices Rules amendment, while rank 1 is a generic Gazette Notifications page; the relevant amendment is present but not at rank 1."
           }
         },
         "q07": {
           "category": "recency",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2270.95,
+            "p95": 2484.59
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3667,
+          "freshness_pct": 56.67,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 17,
+            "p50": 137.0,
+            "p95": 190.0,
+            "min": 1,
+            "max": 190
           },
-          "authority_pct": null,
+          "authority_pct": 30.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly discusses long COVID treatment in 2026 and randomized clinical trials; several additional 2026 treatment results follow."
           }
         },
         "q08": {
           "category": "recency",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2386.8,
+            "p95": 3366.49
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.0667,
+          "freshness_pct": 70.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 21,
+            "p50": 354.0,
+            "p95": 3561.0,
+            "min": 78,
+            "max": 3561
           },
-          "authority_pct": null,
+          "authority_pct": 90.0,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the WHO GLASS report; multiple top results are WHO global AMR surveillance/report pages."
           }
         },
         "q09": {
           "category": "authority",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 2481.84,
+            "p95": 3883.79
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2,
+          "freshness_pct": 100.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 30,
+            "p50": 394.0,
+            "p95": 809.0,
+            "min": 18,
+            "max": 1715
           },
-          "authority_pct": null,
+          "authority_pct": 73.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly states CDC shingles vaccine recommendations for adults; additional CDC and Shingrix recommendation pages are present."
           }
         },
         "q10": {
           "category": "authority",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 3037.66,
+            "p95": 4507.31
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2667,
+          "freshness_pct": 46.67,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 14,
+            "p50": 414.0,
+            "p95": 945.0,
+            "min": 29,
+            "max": 945
           },
-          "authority_pct": null,
+          "authority_pct": 73.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is the 2025 high-blood-pressure guideline hub and several other primary-care hypertension guideline sources follow."
           }
         },
         "q11": {
           "category": "longtail",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 3139.57,
+            "p95": 4598.15
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.2333,
+          "freshness_pct": 70.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 21,
+            "p50": 937.0,
+            "p95": 1905.0,
+            "min": 172,
+            "max": 4087
           },
-          "authority_pct": null,
+          "authority_pct": 43.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result directly addresses B12 monitoring in metformin-treated patients and provides a monitoring interval in the snippet."
           }
         },
         "q12": {
           "category": "longtail",
-          "requests_with_raw_response": 0,
+          "requests_with_raw_response": 3,
           "latency_ms": {
-            "p50": null,
-            "p95": null
+            "p50": 4107.74,
+            "p95": 6847.65
           },
-          "result_counts_by_run_from_raw": {},
-          "mean_results_per_run": 0.0,
-          "domain_diversity": null,
-          "freshness_pct": null,
+          "result_counts_by_run_from_raw": {
+            "1": 10,
+            "2": 10,
+            "3": 10
+          },
+          "mean_results_per_run": 10.0,
+          "domain_diversity": 0.3,
+          "freshness_pct": 40.0,
           "dated_age_days": {
-            "count": 0,
-            "p50": null,
-            "p95": null,
-            "min": null,
-            "max": null
+            "count": 12,
+            "p50": 142.0,
+            "p95": 2351.8,
+            "min": 16,
+            "max": 2629
           },
-          "authority_pct": null,
+          "authority_pct": 23.33,
           "snippet_sufficiency": {
-            "assessment": "",
-            "supporting_rank": "",
-            "notes": ""
+            "assessment": "yes",
+            "supporting_rank": "1",
+            "notes": "Top result is DUPIXENT dosing information and explicitly covers pediatric atopic dermatitis; multiple dosing references follow."
           }
         }
       },
@@ -688,9 +784,9 @@
         "mode": "advanced",
         "published_usd_per_1000_queries": 5.0,
         "free_allowance_requests_per_month": 5000,
-        "recorded_attempts": 0,
-        "free_allowance_consumed_pct": 0.0,
-        "estimated_usd_before_free_allowance": 0.0,
+        "recorded_attempts": 36,
+        "free_allowance_consumed_pct": 0.72,
+        "estimated_usd_before_free_allowance": 0.18,
         "estimated_usd_after_free_allowance": 0.0
       }
     }
@@ -700,289 +796,289 @@
       "category": "clinical",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0526
     },
     "q02": {
       "category": "clinical",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1547
     },
     "q03": {
       "category": "clinical",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0721
     },
     "q04": {
       "category": "clinical",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1111
     },
     "q05": {
       "category": "india",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0721
     },
     "q06": {
       "category": "india",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0526
     },
     "q07": {
       "category": "recency",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 1,
+          "jaccard": 0.0526
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0526
     },
     "q08": {
       "category": "recency",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1111
     },
     "q09": {
       "category": "authority",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1765
     },
     "q10": {
       "category": "authority",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 3,
+          "jaccard": 0.1765
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1765
     },
     "q11": {
       "category": "longtail",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
           "shared_urls": 0,
-          "jaccard": null
+          "jaccard": 0.0
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
           "shared_urls": 0,
-          "jaccard": null
+          "jaccard": 0.0
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
           "shared_urls": 0,
-          "jaccard": null
+          "jaccard": 0.0
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.0
     },
     "q12": {
       "category": "longtail",
       "per_run": {
         "1": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "2": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         },
         "3": {
-          "tinyfish_urls": 0,
-          "parallel_urls": 0,
-          "shared_urls": 0,
-          "jaccard": null
+          "tinyfish_urls": 10,
+          "parallel_urls": 10,
+          "shared_urls": 2,
+          "jaccard": 0.1111
         }
       },
-      "mean_jaccard_across_runs": null
+      "mean_jaccard_across_runs": 0.1111
     }
   }
 }

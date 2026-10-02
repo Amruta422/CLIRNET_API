@@ -1,1 +1,25 @@
 provider,query_id,category,assessment,supporting_rank,notes
+tinyfish,q01,clinical,yes,1,Top result directly reports recombinant zoster vaccine effectiveness in adults 50–79; snippet includes quantitative effectiveness.
+tinyfish,q02,clinical,yes,1,Top result is a treatment-recommendations review and snippet states first-line management; directly relevant to treatment guidelines.
+tinyfish,q03,clinical,yes,1,Top result directly covers GLP-1 receptor agonists and cardiovascular outcome trials; snippet confirms cardiovascular safety.
+tinyfish,q04,clinical,partial,1,"Top result is directly about drug-resistant pathogens in community-acquired pneumonia, but the snippet mainly describes risk factors rather than giving a broad resistance summary."
+tinyfish,q05,india,yes,1,Top result is the Telemedicine Practice Guidelines for India and the snippet identifies India-specific telemedicine guidance.
+tinyfish,q06,india,yes,1,Top result directly concerns the 2025 amendment and its impact on India's medical-device regulation; clearly matches the query.
+tinyfish,q07,recency,yes,1,"Top result is a June 2026 RECOVER research update, directly matching long COVID treatment news in 2026."
+tinyfish,q08,recency,yes,1,Top result is the 2025 global antibiotic resistance surveillance report and the next results include WHO/CDC material; directly relevant to the latest WHO AMR reporting.
+tinyfish,q09,authority,yes,1,"Top result directly gives CDC shingles vaccine recommendations, including two doses and the adult age threshold."
+tinyfish,q10,authority,yes,1,Top result is the 2025 high-blood-pressure guideline hub; directly relevant to hypertension management guidance.
+tinyfish,q11,longtail,yes,1,Top result directly answers monitoring frequency for vitamin B12 in metformin users and the snippet states baseline plus annual monitoring.
+tinyfish,q12,longtail,yes,1,Top result is official DUPIXENT dosing information and explicitly covers pediatric atopic dermatitis dosing.
+parallel,q01,clinical,yes,1,Top result directly reports effectiveness of adjuvanted recombinant zoster vaccine in adults; other top results also include Shingrix and CDC sources.
+parallel,q02,clinical,yes,1,Top result is an evidence-based guideline for treatment of tardive syndromes and directly addresses tardive dyskinesia treatment.
+parallel,q03,clinical,yes,1,Top result directly covers GLP-1 receptor agonist therapies and cardiovascular outcomes; multiple top results are cardiovascular outcome trials.
+parallel,q04,clinical,yes,1,"Top result directly addresses antimicrobial resistance among Streptococcus pneumoniae, a major community-acquired pneumonia pathogen; guideline results are also present."
+parallel,q05,india,yes,1,Top result is the Telemedicine Practice Guidelines from India's Ministry of Health and Family Welfare; directly matches the query.
+parallel,q06,india,partial,2,"Rank 2 explicitly describes the 2025 Medical Devices Rules amendment, while rank 1 is a generic Gazette Notifications page; the relevant amendment is present but not at rank 1."
+parallel,q07,recency,yes,1,Top result directly discusses long COVID treatment in 2026 and randomized clinical trials; several additional 2026 treatment results follow.
+parallel,q08,recency,yes,1,Top result is the WHO GLASS report; multiple top results are WHO global AMR surveillance/report pages.
+parallel,q09,authority,yes,1,Top result directly states CDC shingles vaccine recommendations for adults; additional CDC and Shingrix recommendation pages are present.
+parallel,q10,authority,yes,1,Top result is the 2025 high-blood-pressure guideline hub and several other primary-care hypertension guideline sources follow.
+parallel,q11,longtail,yes,1,Top result directly addresses B12 monitoring in metformin-treated patients and provides a monitoring interval in the snippet.
+parallel,q12,longtail,yes,1,Top result is DUPIXENT dosing information and explicitly covers pediatric atopic dermatitis; multiple dosing references follow.

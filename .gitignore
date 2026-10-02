@@ -3,3 +3,4 @@
 !.env.example
 *.zip
 __pycache__/
+.local_audit/
