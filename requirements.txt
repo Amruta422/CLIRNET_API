@@ -1,1 +1,1 @@
-# This project intentionally uses only the Python standard library.
+tldextract==5.3.1

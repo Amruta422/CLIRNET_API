@@ -1,0 +1,988 @@
+{
+  "methodology": {
+    "latency": "Client wall-clock time, including network and response read.",
+    "result_count": "Count read directly from each raw response's results array.",
+    "domain_diversity": "Unique public-suffix-aware registrable domains divided by results.",
+    "overlap": "Jaccard is calculated separately for matching provider runs; per-query aggregate is the arithmetic mean of non-null run Jaccards.",
+    "authority": "Domains ending .gov/.edu/.org or WHO, NIH, CDC, NCBI, PubMed hosts.",
+    "freshness": "Only provider-returned publication dates; age is measured against that request's recorded UTC date.",
+    "snippet_sufficiency": "Manual, top-10 titles/snippets only; assessment, rank, and notes are preserved in results/snippet_assessment.csv and metrics.json.",
+    "cost": "Rates are the assignment-brief published rates; this is an estimate based on recorded attempts."
+  },
+  "providers": {
+    "tinyfish": {
+      "request_attempts": 0,
+      "raw_responses": 0,
+      "latency_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "mean_results_per_request": 0.0,
+      "domain_diversity": null,
+      "freshness_pct": null,
+      "dated_age_days": {
+        "count": 0,
+        "p50": null,
+        "p95": null,
+        "min": null,
+        "max": null
+      },
+      "authority_pct": null,
+      "failures": {
+        "non_200": 0,
+        "timeouts_or_network_errors": 0,
+        "rate_limit_429": 0,
+        "empty_result_sets": 0
+      },
+      "request_defaults_and_limits": {
+        "tinyfish": {
+          "default_location_language": "US/en when neither is sent",
+          "default_domain_type": "web",
+          "page": 0,
+          "result_limit": "provider default; actual count is recorded per raw response"
+        }
+      },
+      "per_query": {
+        "q01": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q02": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q03": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q04": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q05": {
+          "category": "india",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q06": {
+          "category": "india",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q07": {
+          "category": "recency",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q08": {
+          "category": "recency",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q09": {
+          "category": "authority",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q10": {
+          "category": "authority",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q11": {
+          "category": "longtail",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q12": {
+          "category": "longtail",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        }
+      },
+      "cost": {
+        "mode": "Search API",
+        "published_usd_per_1000_queries": 0.0,
+        "free_allowance_requests": "Search requests free at any wallet balance",
+        "recorded_attempts": 0,
+        "estimated_usd": 0.0
+      }
+    },
+    "parallel": {
+      "request_attempts": 0,
+      "raw_responses": 0,
+      "latency_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "mean_results_per_request": 0.0,
+      "domain_diversity": null,
+      "freshness_pct": null,
+      "dated_age_days": {
+        "count": 0,
+        "p50": null,
+        "p95": null,
+        "min": null,
+        "max": null
+      },
+      "authority_pct": null,
+      "failures": {
+        "non_200": 0,
+        "timeouts_or_network_errors": 0,
+        "rate_limit_429": 0,
+        "empty_result_sets": 0
+      },
+      "request_defaults_and_limits": {
+        "tinyfish": {
+          "mode": "advanced",
+          "result_limit": "provider default; actual count is recorded per raw response"
+        }
+      },
+      "per_query": {
+        "q01": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q02": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q03": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q04": {
+          "category": "clinical",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q05": {
+          "category": "india",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q06": {
+          "category": "india",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q07": {
+          "category": "recency",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q08": {
+          "category": "recency",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q09": {
+          "category": "authority",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q10": {
+          "category": "authority",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q11": {
+          "category": "longtail",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        },
+        "q12": {
+          "category": "longtail",
+          "requests_with_raw_response": 0,
+          "latency_ms": {
+            "p50": null,
+            "p95": null
+          },
+          "result_counts_by_run_from_raw": {},
+          "mean_results_per_run": 0.0,
+          "domain_diversity": null,
+          "freshness_pct": null,
+          "dated_age_days": {
+            "count": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "authority_pct": null,
+          "snippet_sufficiency": {
+            "assessment": "",
+            "supporting_rank": "",
+            "notes": ""
+          }
+        }
+      },
+      "cost": {
+        "mode": "advanced",
+        "published_usd_per_1000_queries": 5.0,
+        "free_allowance_requests_per_month": 5000,
+        "recorded_attempts": 0,
+        "free_allowance_consumed_pct": 0.0,
+        "estimated_usd_before_free_allowance": 0.0,
+        "estimated_usd_after_free_allowance": 0.0
+      }
+    }
+  },
+  "cross_provider_overlap": {
+    "q01": {
+      "category": "clinical",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q02": {
+      "category": "clinical",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q03": {
+      "category": "clinical",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q04": {
+      "category": "clinical",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q05": {
+      "category": "india",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q06": {
+      "category": "india",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q07": {
+      "category": "recency",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q08": {
+      "category": "recency",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q09": {
+      "category": "authority",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q10": {
+      "category": "authority",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q11": {
+      "category": "longtail",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    },
+    "q12": {
+      "category": "longtail",
+      "per_run": {
+        "1": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "2": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        },
+        "3": {
+          "tinyfish_urls": 0,
+          "parallel_urls": 0,
+          "shared_urls": 0,
+          "jaccard": null
+        }
+      },
+      "mean_jaccard_across_runs": null
+    }
+  }
+}
