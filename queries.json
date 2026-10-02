@@ -1,0 +1,14 @@
+[
+  {"id": "q01", "category": "clinical", "query": "recombinant zoster vaccine efficacy in adults over 50"},
+  {"id": "q02", "category": "clinical", "query": "tardive dyskinesia treatment guidelines"},
+  {"id": "q03", "category": "clinical", "query": "GLP-1 receptor agonist cardiovascular outcome trials"},
+  {"id": "q04", "category": "clinical", "query": "community-acquired pneumonia antibiotic resistance"},
+  {"id": "q05", "category": "india", "query": "Telemedicine Practice Guidelines India"},
+  {"id": "q06", "category": "india", "query": "Medical Device Rules India amendment 2025"},
+  {"id": "q07", "category": "recency", "query": "long COVID treatment news 2026"},
+  {"id": "q08", "category": "recency", "query": "WHO antimicrobial resistance report latest"},
+  {"id": "q09", "category": "authority", "query": "shingles vaccine recommendation adult immunisation"},
+  {"id": "q10", "category": "authority", "query": "hypertension management guidelines primary care"},
+  {"id": "q11", "category": "longtail", "query": "metformin vitamin B12 deficiency monitoring interval"},
+  {"id": "q12", "category": "longtail", "query": "atopic dermatitis dupilumab paediatric dosing"}
+]
